@@ -36,7 +36,7 @@ Měřit teplotu chceme pravidelně, takže do Crontabu uložíme (příkaz `cron
 
 `*/5 * * * * bash /home/uzivatel/teplomer/logovani.sh &>/dev/null`
 
-Skript se bude pouštět každých 5 minut (měřit častěji mi přijde zbytečné, ale samozřejmě každý podle svého gusta). Server tmep.cz má přehledné a logické nastavení, popř. doporučuji jejich [wiki](http://wiki.tmep.eu).
+Skript se bude pouštět každých 5 minut (měřit častěji mi přijde zbytečné, ale samozřejmě každý podle svého gusta). Server tmep.cz má přehledné a logické nastavení, popř. doporučuji jejich [wiki](http://wiki.tmep.cz/doku.php?id=cs:start).
 
 P.S.: Pokud nejsme root, je nutné příkazy spouštět se sudo na začátku.
 
