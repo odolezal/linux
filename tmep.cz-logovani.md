@@ -12,7 +12,7 @@ Připojíme čidlo přes sériový port k počítači s Linuxem. Pokud nemáme p
 
 Příkazem `dmesg | grep tty` zjistíme název sériové linky v systému. Pokud máme USB převodník, hledejte označení `ttyUSB0`. Port na desce je většinou označen jako `ttyS0`.
 
-Vyzkoušíme komunikaci s čidlem pomocí příkazu cat /dev/ttyUSB0. Pokud vše funguje jak má, tak teploměr vrátí následující řádek:
+Vyzkoušíme komunikaci s čidlem pomocí příkazu `cat /dev/ttyUSB0`. Pokud vše funguje jak má, tak teploměr vrátí následující řádek:
 
 `+022.7C` 
 
